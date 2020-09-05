@@ -1,0 +1,300 @@
+/*=========================== layout================================*/
+
+html, body, .capa{
+    height: 100%;
+}
+
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+	max-width: 100%;
+}
+
+footer{
+    width: 100%;
+    background: white;
+    padding: 10px; 
+}
+
+.postagem{
+    margin-bottom: 20px;
+    background:#f5deb3;
+    padding: 10px;
+}
+
+.box{
+    background: white;
+    width: 100%;
+    height: 425px;
+    padding: 5px 5px 10px 10px;
+    border-radius: 20px;
+}
+
+.box-panfleto{
+    background: white;
+    width: 100%;
+    height: 600px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+/*====== barra de navegação =====*/
+
+.img-logo{
+    height: 40px;
+    width: 132px;
+    display: block;
+    background: no-repeat;
+    background-size: contain;
+    color: transparent;
+    padding: 0px 0px 20px 0px;
+    position: absolute;
+}
+
+
+nav.navbar-transparente{
+    padding: 10px 0px;
+    background: rgb(197, 108, 67);
+    border: none;
+
+}
+
+.navbar-brand{
+    padding: 0px 15px;
+
+}
+
+.divisor{
+    width: 1px;
+    height: 16px;
+    background: white;
+    margin: 15px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color:  rgb(204, 130, 96);
+}
+
+/*====== area primaria=====*/
+#area-principal{
+    margin: 20px auto 10px auto;
+    border: 1px solid #f5deb3;
+}
+
+#galeria-foto{
+    background: #ffffff;
+    width: 265px;
+    padding: 5px;
+    float: left;
+    margin: 5px;
+}
+
+
+/*classes*/
+
+.clear{
+    clear: both;
+}
+
+.imagem{
+    width: 265px;
+    height: 250px;
+}
+
+
+.img-postagem{
+    width:250px; 
+    height:250px;
+    display: block;
+    border-radius: 10px;
+    float: left;
+    padding: 5px;
+}
+
+.item-rede-sociais{
+    float: right;
+
+}
+
+/*======  rodape =====*/
+#logo-rodape{
+    float: left;
+}
+
+/* area de serviço //  seções */
+
+
+/*=========================== Tipografia===========================*/
+.texto{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.negrito{
+    font-weight: bold ;
+}
+
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 2px solid rgb(197, 108, 67);
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    color:rgb(197, 108, 67);
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+}
+
+h2{
+    color: rgb(197, 108, 67);
+}
+
+h3{
+    color: rgb(197, 108, 67);
+}
+
+.item {
+    width: 350px;
+    height: 300px;
+    padding-top: 0px;
+    padding: 0px 10px;
+    color: rgb(197, 108, 67);
+    float: left
+}
+
+.item-panfleto {
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding: 0px 10px;
+    color:rgb(197, 108, 67);
+    float: left
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.autoria {
+    color: rgb(197, 108, 67);
+    text-align: center;
+}
+
+
+
+
+@media only screen and (max-width: 670px){
+
+    /********** layout *********/
+    .img-postagem{
+        width:120px; 
+        height:120px;
+        padding: 5px;
+        float: left;
+    }
+
+    .box-panfleto{
+        width:100%;
+        height: 420px;
+        padding: 40px 30px 30px 30px;
+        border-radius: 20px;
+    }
+
+    .item {
+        width: 300px;
+        height: 300px;
+        padding-top: 5px;
+        padding: 0px 10px;
+        float: left
+    }
+
+    .item-panfleto {
+        width: 100px;
+        height: 200px;
+        padding: 0px 10px;
+        color: rgb(197, 108, 67);
+        float: left
+    }
+    
+
+    /*********textos*********/
+
+    a{
+        color:rgb(197, 108, 67);
+    }
+
+
+    
+
+}
+
+@media only screen and (max-width: 365px){
+     
+    .box{ 
+        width:100%;
+        height: auto;
+       
+    }
+
+    .item {
+        width: 0px;
+        height: 400px;
+        padding: 0px 0px 5px 0px;
+        overflow: auto;
+        color: white;
+        float: left;
+    }
+
+    .caixa-postagem{
+        width: 200;
+        height: 200;
+        overflow: hiden;
+    }
+
+    .img-postagem{
+        width:100px; 
+        height:100px;
+        display: block;
+        border-radius: 10px;
+        float: left;
+        padding: 5px;
+    } 
+    
+    .imagem{
+        width: 200px;
+        height: 200px;
+    }
+
+    .box-panfleto{
+        width:80%;
+        height: 555px;
+        padding: 40px 30px 30px 30px;
+    }
+
+
+    a{
+        color: rgb(197, 108, 67);
+    }
+
+    #logo-rodape{
+        float: left;
+    }
+
+    footer{
+        background: rgb(197, 108, 67);
+        
+    }
+
+}
