@@ -123,6 +123,11 @@ nav.navbar-transparente{
 
 }
 
+.icons{
+    width: 40px;
+    height: 40px;
+}
+
 /*======  rodape =====*/
 #logo-rodape{
     float: left;
@@ -175,12 +180,8 @@ h3{
 }
 
 .item-panfleto {
-    width: 30px;
-    height: auto;
-    padding-top: 20px;
-    padding: 0px 10px;
+    
     color:rgb(197, 108, 67);
-    float: left
 }
 
 p{
@@ -213,19 +214,17 @@ p{
     }
 
     .item {
-        width: 300px;
-        height: 300px;
+        width: 410px;
+        height: 200px;
         padding-top: 5px;
         padding: 0px 10px;
-        float: left
+        overflow: scroll;
+        float: auto;
     }
 
     .item-panfleto {
-        width: 100px;
-        height: 200px;
         padding: 0px 10px;
         color: rgb(197, 108, 67);
-        float: left
     }
     
 
@@ -240,35 +239,31 @@ p{
 
 }
 
-@media only screen and (max-width: 365px){
+@media only screen and (max-width: 450px){
      
     .box{ 
         width:100%;
-        height: auto;
-       
+        height: 500px;
+        overflow: scroll;
     }
 
     .item {
-        width: 0px;
-        height: 400px;
-        padding: 0px 0px 5px 0px;
-        overflow: auto;
-        color: white;
-        float: left;
+        width: 100%;
+        height: 600px;
+        padding: 0px 5px 3px 0px ;
+        color: ;
     }
 
     .caixa-postagem{
-        width: 200;
-        height: 200;
-        overflow: hiden;
+        width: 100;
+        height: 100;
     }
 
     .img-postagem{
-        width:100px; 
-        height:100px;
+        width:200px; 
+        height:200px;
         display: block;
         border-radius: 10px;
-        float: left;
         padding: 5px;
     } 
     
@@ -277,8 +272,18 @@ p{
         height: 200px;
     }
 
+    .item-rede-sociais{
+        display: in-line;
+        
+    }
+
+    .icons{
+        width: 20px;
+        height: 20px;
+    }
+
     .box-panfleto{
-        width:80%;
+        width:100%;
         height: 555px;
         padding: 40px 30px 30px 30px;
     }

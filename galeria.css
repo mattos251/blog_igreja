@@ -1,37 +1,45 @@
+
 html, body, .capa{
     height: 100%;
-    overflow: auto;
 }
 
-.container{
-    padding-top: 0px;
+body {
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-
+img {
+	max-width: 100%;
+}
 
 footer{
-    background: blanchedalmond;
-    padding: 10px 0px 10px 0px ;
-    position: fixad;
-    
+    padding-bottom: 0%;
+    width: 100%;
+    background: white;
+    padding: 10px; 
 }
 
-
 .postagem{
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     background:#f5deb3;
     padding: 10px;
-
 }
 
 .box{
-    background:  rgb(197, 108, 67);
+    background: white;
     width: 100%;
-    height: 1200px;
+    height: 425px;
     padding: 5px 5px 10px 10px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 
+.box-panfleto{
+    background: white;
+    width: 100%;
+    height: 600px;
+    padding: 5px;
+    border-radius: 10px;
+}
 
 /*====== barra de navegação =====*/
 
@@ -41,15 +49,14 @@ footer{
     display: block;
     background: no-repeat;
     background-size: contain;
-    color: transparent;
+    color:white;
     padding: 0px 0px 20px 0px;
     position: absolute;
 }
 
-
 nav.navbar-transparente{
     padding: 10px 0px;
-    background: rgba(0,0,0,0.6);
+    background: rgb(197, 108, 67);
     border: none;
 
 }
@@ -74,15 +81,17 @@ nav.navbar-transparente{
     color:  rgb(204, 130, 96);
 }
 
-/*====== area primaria=====*/
+/** corpo do site**/
+
 #area-principal{
+    padding-top: 50px;
     margin: 20px auto 10px auto;
-    border: 1px solid #f5deb3;
+    
 }
 
 #galeria-foto{
     background: #ffffff;
-    width: auto;
+    width: 265px;
     padding: 5px;
     float: left;
     margin: 5px;
@@ -96,25 +105,25 @@ nav.navbar-transparente{
 }
 
 .imagem{
-    width: 255px;
+    width: 265px;
     height: 250px;
-    border-radius: 20px; 
 }
+
 
 .img-postagem{
-    width:250px; 
-    height:250px;
-    display: block;
-    border-radius: 10px;
-    float: left;
+    width:200px; 
+    height:200px;
+    display: in-line;
+    border-radius: 40px;
     padding: 5px;
+    padding-bottom: 10px;
+
 }
 
-.titulo-galeria{
-    border-bottom: 1px solid white;
-    margin-bottom: 10px;
-}
+.item-rede-sociais{
+    float: right;
 
+}
 
 /*======  rodape =====*/
 #logo-rodape{
@@ -126,7 +135,7 @@ nav.navbar-transparente{
 
 /*=========================== Tipografia===========================*/
 .texto{
-    font-size: 20px;
+    font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
@@ -136,10 +145,11 @@ nav.navbar-transparente{
 
 .data-postagem{
     font-size: 14px;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid rgb(197, 108, 67);
     display: block;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    color:rgb(197, 108, 67);
 }
 
 h1{
@@ -150,19 +160,36 @@ h1{
 }
 
 h2{
-    color:white;
+    color: rgb(197, 108, 67);
 }
 
 h3{
-    color: rgb(160, 81, 45);
+    color: rgb(197, 108, 67);
+}
+
+.item {
+    width: 350px;
+    height: 300px;
+    padding-top: 0px;
+    padding: 0px 10px;
+    color: rgb(197, 108, 67);
+    float: left
+}
+
+.item-panfleto {
+    width: 30px;
+    height: auto;
+    padding-top: 20px;
+    padding: 0px 10px;
+    color:rgb(197, 108, 67);
+    float: left
 }
 
 p{
-    padding: 15px;
-    display: block;
-    width: 400px;
-    float: left;
-    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-/*======  galeria =====*/
+.autoria {
+    color: rgb(197, 108, 67);
+    text-align: center;
+}
