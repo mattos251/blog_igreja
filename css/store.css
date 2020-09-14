@@ -13,24 +13,24 @@ img {
 	max-width: 100%;
 }
 
+
 footer{
     width: 100%;
     background: white;
     padding: 10px; 
-}
-
-.postagem{
-    margin-bottom: 20px;
-    background:#f5deb3;
-    padding: 10px;
+    margin-bottom: 10px;
+    bottom:0;
 }
 
 .box{
-    background: white;
-    width: 100%;
-    height: 425px;
-    padding: 5px 5px 10px 10px;
+    width: 160px;
+    background: rgb(204, 130, 96);
+    height: 200px;
+    border: 2px solid  rgb(204, 130, 96);
+    float: left;
+    margin: 3px 0px 5px 3px;
     border-radius: 20px;
+    
 }
 
 .box-panfleto{
@@ -84,39 +84,24 @@ nav.navbar-transparente{
 
 /*====== area primaria=====*/
 #area-principal{
+    
     margin: 20px auto 10px auto;
-    border: 1px solid #f5deb3;
-}
-
-#galeria-foto{
-    background: #ffffff;
-    width: 265px;
-    padding: 5px;
-    float: left;
-    margin: 5px;
+    
 }
 
 
 /*classes*/
+.imagem{
+    width: 150px;
+    height: 150px;
+    padding: 5px 5px;
+    border-radius: 20px;
+}
 
 .clear{
     clear: both;
 }
 
-.imagem{
-    width: 265px;
-    height: 250px;
-}
-
-
-.img-postagem{
-    width:250px; 
-    height:250px;
-    display: block;
-    border-radius: 10px;
-    float: left;
-    padding: 5px;
-}
 
 .item-rede-sociais{
     float: right;
@@ -176,7 +161,7 @@ h3{
     padding-top: 0px;
     padding: 0px 10px;
     color: rgb(197, 108, 67);
-    float: left
+    float: left;
 }
 
 .item-panfleto {
@@ -199,107 +184,16 @@ p{
 @media only screen and (max-width: 670px){
 
     /********** layout *********/
-    .img-postagem{
-        width:120px; 
-        height:120px;
-        padding: 5px;
-        float: left;
-    }
-
-    .box-panfleto{
-        width:100%;
-        height: 420px;
-        padding: 40px 30px 30px 30px;
-        border-radius: 20px;
-    }
-
-    .item {
-        width: 410px;
-        height: 200px;
-        padding-top: 5px;
-        padding: 0px 10px;
-        overflow: scroll;
-        float: auto;
-    }
-
-    .item-panfleto {
-        padding: 0px 10px;
-        color: rgb(197, 108, 67);
-    }
+    
     
 
     /*********textos*********/
 
-    a{
-        color:rgb(197, 108, 67);
-    }
-
-
-    
+ 
 
 }
 
 @media only screen and (max-width: 450px){
      
-    .box{ 
-        width:100%;
-        height: 500px;
-        overflow: scroll;
-    }
-
-    .item {
-        width: 100%;
-        height: 600px;
-        padding: 0px 5px 3px 0px ;
-        color: ;
-    }
-
-    .caixa-postagem{
-        width: 100;
-        height: 100;
-    }
-
-    .img-postagem{
-        width:200px; 
-        height:200px;
-        display: block;
-        border-radius: 10px;
-        padding: 5px;
-    } 
     
-    .imagem{
-        width: 200px;
-        height: 200px;
-    }
-
-    .item-rede-sociais{
-        display: in-line;
-        
-    }
-
-    .icons{
-        width: 20px;
-        height: 20px;
-    }
-
-    .box-panfleto{
-        width:100%;
-        height: 555px;
-        padding: 40px 30px 30px 30px;
-    }
-
-
-    a{
-        color: rgb(197, 108, 67);
-    }
-
-    #logo-rodape{
-        float: left;
-    }
-
-    footer{
-        background: rgb(197, 108, 67);
-        
-    }
-
 }

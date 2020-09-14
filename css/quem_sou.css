@@ -1,3 +1,4 @@
+/*=========================== layout================================*/
 
 html, body, .capa{
     height: 100%;
@@ -12,26 +13,15 @@ img {
 	max-width: 100%;
 }
 
+
 footer{
-    padding-bottom: 0%;
     width: 100%;
     background: white;
     padding: 10px; 
+    bottom:0;
 }
 
-.postagem{
-    margin-bottom: 10px;
-    background:#f5deb3;
-    padding: 10px;
-}
 
-.box{
-    background: white;
-    width: 100%;
-    height: 425px;
-    padding: 5px 5px 10px 10px;
-    border-radius: 20px;
-}
 
 .box-panfleto{
     background: white;
@@ -49,10 +39,11 @@ footer{
     display: block;
     background: no-repeat;
     background-size: contain;
-    color:white;
+    color: transparent;
     padding: 0px 0px 20px 0px;
     position: absolute;
 }
+
 
 nav.navbar-transparente{
     padding: 10px 0px;
@@ -81,48 +72,39 @@ nav.navbar-transparente{
     color:  rgb(204, 130, 96);
 }
 
-/** corpo do site**/
-
+/*====== area primaria=====*/
 #area-principal{
-    padding-top: 50px;
     margin: 20px auto 10px auto;
-    
+
 }
 
-#galeria-foto{
-    background: #ffffff;
-    width: 265px;
-    padding: 5px;
-    float: left;
-    margin: 5px;
-}
+
 
 
 /*classes*/
-
-.clear{
-    clear: both;
-}
-
-.imagem{
-    width: 265px;
-    height: 250px;
-}
-
-
 .img-postagem{
-    width:200px; 
-    height:200px;
-    display: in-line;
+    width:400px; 
+    height:400px;
     border-radius: 40px;
     padding: 5px;
     padding-bottom: 10px;
 
 }
 
+
+.clear{
+    clear: both;
+}
+
+
 .item-rede-sociais{
     float: right;
 
+}
+
+.icons{
+    width: 40px;
+    height: 40px;
 }
 
 /*======  rodape =====*/
@@ -173,23 +155,42 @@ h3{
     padding-top: 0px;
     padding: 0px 10px;
     color: rgb(197, 108, 67);
-    float: left
-}
-
-.item-panfleto {
-    width: 30px;
-    height: auto;
-    padding-top: 20px;
-    padding: 0px 10px;
-    color:rgb(197, 108, 67);
-    float: left
+    float: left;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+    text-align: justify
 }
 
 .autoria {
     color: rgb(197, 108, 67);
     text-align: center;
+}
+
+.postagem{
+    margin-bottom: 20px;
+    background:#f5deb3;
+    padding: 10px;
+}
+
+
+
+
+@media only screen and (max-width: 670px){
+
+    /********** layout *********/
+    
+    
+
+    /*********textos*********/
+
+ 
+
+}
+
+@media only screen and (max-width: 450px){
+     
+    
 }
